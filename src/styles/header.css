@@ -1,0 +1,12 @@
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg,#fbbf24,#f472b6);
+  color: white;
+  border-radius: 16px;
+}
