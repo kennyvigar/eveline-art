@@ -1,3 +1,4 @@
+import logo from '../assets/logo/logo.png'
 import '../styles/header.css'
 
 export default function Header() {
@@ -5,8 +6,13 @@ export default function Header() {
   return (
     <header className="hero">
 
-      <h1>eveline#art</h1>
-      {/* <p>by Eveline</p> */}
+      <div className="hero-title">
+
+        <img src={logo} className="logo" />
+
+        <h1>eveline#art</h1>
+
+      </div>
 
     </header>
   )
