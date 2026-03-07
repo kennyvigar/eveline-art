@@ -1,6 +1,6 @@
-export default function RandomChicken({ images, onPick }) {
+export default function RandomChicken({ images, onPick, label = "Random Chicken" }) {
 
-  const randomChicken = () => {
+  const randomPick = () => {
 
     const index = Math.floor(Math.random() * images.length)
 
@@ -10,10 +10,10 @@ export default function RandomChicken({ images, onPick }) {
 
   return (
 
-    <div style={{textAlign:"center", marginBottom:"30px"}}>
+    <div style={{ textAlign: "center", marginBottom: "30px" }}>
 
-      <button onClick={randomChicken}>
-        🐔 Random Chicken
+      <button onClick={randomPick}>
+        {label}
       </button>
 
     </div>
