@@ -47,3 +47,35 @@
 .folder-card:hover {
   transform: scale(1.05);
 }
+
+.fact-section {
+
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.fact-button {
+
+  padding: 14px 22px;
+  font-size: 1.1rem;
+  background: #fbbf24;
+  border-radius: 10px;
+
+}
+
+.fact-box {
+
+  margin-top: 20px;
+  padding: 20px;
+
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: white;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 14px rgba(0,0,0,.1);
+
+}

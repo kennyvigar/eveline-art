@@ -5,6 +5,7 @@ import ChickenGrid from "./components/ChickenGrid"
 import ChickenModal from "./components/ChickenModal"
 import RandomChicken from "./components/RandomChicken"
 import ArtFolders from "./components/ArtFolders"
+import ChickenFact from "./components/ChickenFact"
 
 export default function App() {
 
@@ -51,7 +52,9 @@ export default function App() {
           folders={Object.keys(images)}
           onSelect={setSelectedCategory}
         />
+        
       )}
+      {/* <ChickenFact /> */}
 
       {selectedCategory && (
 
@@ -74,6 +77,7 @@ export default function App() {
             images={images[selectedCategory]}
             onSelect={setSelectedImage}
           />
+          
         </>
 
       )}
