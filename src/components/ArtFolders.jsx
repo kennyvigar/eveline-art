@@ -12,7 +12,7 @@ export default function ArtFolders({ folders, onSelect }) {
           onClick={() => onSelect(folder)}
         >
 
-          {folder === "chickens" ? "🐔 Chicken Art" : folder === "rockart" ? "🪨 rocks" : folder === "zkynlee" ? "👭 kynlee's art" : "🎨 Other Art"}
+          {folder === "chickens" ? "🐔 Chicken Art" : folder === "rockart" ? "🪨 rocks" : folder === "clay" ? "🗿 clay" : folder === "zkynlee" ? "👭 kynlee's art" : "🎨 Other Art"}
 
         </div>
 
